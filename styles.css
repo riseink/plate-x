@@ -1,0 +1,187 @@
+/* General Styles */
+html, body {
+  margin: 10px;}
+
+.group:after,
+.group:before {
+  display: table;
+  content: "";
+}
+.group:after {
+  clear: both;
+}
+.group {
+  *zoom: 1;
+}
+
+.logo {
+	float: left;
+}
+
+.logo img{
+	height: 100px;
+	margin: 0 0 0 50px;
+}
+
+/*Floorplan DIV */
+
+.floorplan {
+  height: 960px;
+  width: 1200px;
+  background: url('img/restaurant-floorplan_blank.png') no-repeat; 
+  position: relative; 
+  margin: 0 auto;
+}
+
+/*table 4 positioning*/
+
+.table-1 {
+  position: absolute;
+  top: 110px;
+  left: 130px;
+  height: 100px;
+  width: 100px; }
+  .table-1 img {
+	width: 100px; }
+	
+.table-2 {
+  position: absolute;
+  top: 110px;
+  left: 280px;
+  height: 100px;
+  width: 100px; }
+  .table-2 img {
+	width: 100px; }
+	
+.table-3 {
+ position: absolute;
+ top: 110px;
+ left: 630px;
+ height: 100px;
+ width: 100px; }
+ .table-3 img {
+	width: 100px; }
+
+.table-4 {
+ position: absolute;
+ top: 110px;
+ left: 780px;
+ height: 100px;
+ width: 100px; }
+ .table-4 img {
+	width: 100px; }
+
+.table-5 {
+  position: absolute;
+  top: 270px;
+  left: 130px;
+  height: 100px;
+  width: 100px; }
+ 
+
+/* table4 images */	
+
+.table-gray {
+  background: url('img/table4_gray.png') no-repeat; 
+  background-size: 100px;
+}
+
+.table-yellow {
+  background: url('img/table4_yellow.png') no-repeat;
+  background-size: 100px;
+ 
+}
+
+.table-green {
+  background: url('img/table4_green.png') no-repeat;
+  background-size: 100px;
+ 
+}
+
+.table-red {
+  background: url('img/table4_red.png') no-repeat;
+  background-size: 100px;
+ 
+}
+
+.table-blink {
+  background: url('img/table4_blink.gif') no-repeat;
+  background-size: 100px;
+ 
+}
+
+/* table2 css */
+
+.two-1 {
+  position: absolute;
+  top: 389px;
+  left: 350px;
+  height: 100px;
+  width: 100px; }
+  
+
+.two-2 {
+  position: absolute;
+  top: 389px;
+  left: 500px;
+  height: 100px;
+  width: 100px; }
+
+
+.two-3 {
+  position: absolute;
+  top: 389px;
+  left: 650px;
+  height: 100px;
+  width: 100px; }
+  
+
+.two-4 {
+  position: absolute;
+  top: 500px;
+  left: 350px;
+  height: 100px;
+  width: 100px; }
+
+
+.two-5 {
+  position: absolute;
+  top: 500px;
+  left: 500px;
+  height: 100px;
+  width: 100px; }
+  
+
+.two-6 {
+  position: absolute;
+  top: 500px;
+  left: 650px;
+  height: 100px;
+  width: 100px; }
+
+
+.two-gray {
+  background: url('img/table2_gray.png') no-repeat; 
+  background-size: 45px;
+}
+
+.two-yellow {
+  background: url('img/table2_yellow.png') no-repeat; 
+   background-size: 45px; 
+}
+
+.two-green {
+  background: url('img/table2_green.png') no-repeat; 
+    background-size: 45px;
+}
+
+.two-red {
+  background: url('img/table2_red.png') no-repeat; 
+    background-size: 45px;
+}
+
+.two-blink {
+  background: url('img/table2_red_blink.gif') no-repeat; 
+    background-size: 45px;
+}
+
